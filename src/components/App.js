@@ -5,10 +5,10 @@ import './../styles/App.css';
 import Parent from "./Parent";
 
 const App = () => {
-  const [showModal, setShowModal] = useState(false);
+  
   return (
     <div>
-        {/* Do not remove the main div */}
+        
         <Parent/>
     </div>
   )
